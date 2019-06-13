@@ -1,0 +1,28 @@
+BEFORE TO START
+    We need to follow the next steps.
+    1.- Intall Git in your OS.
+    2.- Intall Visual Studio Code. (Code editor)
+    3.- Be sure you know the command line and basic commands.
+    4.- Be aware of this concept in Git.
+        You have 3 different concepts in Git local Git.
+
+        Directory               Staging             Repository
+
+        directory: It is the current directory in our local machine.
+        staging: It is the place in RAM where you are going to add your changes at first.
+        repository: (/.git/) repository
+
+COMMANDS IN LOCAL MACHINE WE USE GIT
+    git init                    - create a new repository.
+    git status                  - the current status of the project.
+    git add fileName            - add the file to STAGING section. 
+    git rm fileName             - remove the file from STAGING section.
+    git rm --cached fileName    - remove the command "git add" from STAGING
+    git commit -m "Message"     - add the file to the repository (master), and it also add a message with the parametter -m
+
+    git show                    - show the historical changes that were made, who made the canges
+    git log (file)              - show the changes of a file.  
+
+
+COMMANDS WORKING TO COLABORATE IN WEB WE USE GIT_HUB
+    

@@ -1,0 +1,10 @@
+STEPS TO INSTALL GIT IN WINDOWS
+
+    1.- go to https://git-scm.com/download/win
+    2.- select the version that fits with you OS.
+    3.- open an execute, go with Next, Next again, but be sure to install Git Bash.
+        Git Bash emulates the command line of linux in Windows.
+        In the screen "Adjusting your PATH environment", select: Git from the command line and from 3er-party software.
+        In the screen "Configuring the line ending conversions", select: Checkout Windows-style, commit Unix-style line endings.
+        Next, Next and Install..
+    4.- Finish button.
