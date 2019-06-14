@@ -29,10 +29,11 @@ COMMANDS IN LOCAL MACHINE WE USE GIT
     git commit -am "Message"    - in the same line execute the command "git add" and do the commit using a Message with the parametter -m.
     git log fileName            - show the history of file (commit, author, date, message) in the repository.
     git log                     - show all the history of the files (commit, author, date, message) in the repository.
+    git log --stat              - show the specific changes in the files.
     git reset commitId --hard   - return to the version you're specifying in "commitId", there is no way to keep what is in STAGING.
     git reset commitId --soft   - return to the version you're specifying in "commitId", keep what in STAGING section is.
     git show fileName           - show the historical changes that were made in the file.
-    
+    git diff                    - show the differences that are in STAGING file and directory file.
 
 COMMANDS WORKING TO COLABORATE IN WEB WE USE GIT_HUB
     
