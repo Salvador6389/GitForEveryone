@@ -3,7 +3,13 @@ BEFORE TO START
     1.- Intall Git in your OS.
     2.- Intall Visual Studio Code. (Code editor)
     3.- Be sure you know the command line and basic commands.
-    4.- Be aware of this concept in Git.
+    4.- Configure Git with your email and name
+        git config              - you will seee all the options that git has
+        git config --list       - you will se the default configuration
+        git config --list --show-origin
+        git config --global user.name "Jesus Rios"
+        git config --global user.email "rios_6389_@hotmail.com"
+    5.- Be aware of this concept in Git.
         You have 3 different concepts in Git local Git.
 
         Directory               Staging             Repository
@@ -19,7 +25,6 @@ COMMANDS IN LOCAL MACHINE WE USE GIT
     git rm fileName             - remove the file from STAGING section.
     git rm --cached fileName    - remove the command "git add" from STAGING
     git commit -m "Message"     - add the file to the repository (master), and it also add a message with the parametter -m
-
     git show                    - show the historical changes that were made, who made the canges
     git log (file)              - show the changes of a file.  
 
