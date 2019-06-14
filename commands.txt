@@ -4,13 +4,13 @@ BEFORE TO START
     2.- Intall Visual Studio Code. (Code editor)
     3.- Be sure you know the command line and basic commands.
     4.- Configure Git with your email and name
-        git config              - you will seee all the options that git has
-        git config --list       - you will se the default configuration
-        git config --list --show-origin
-        git config --global user.name "Jesus Rios"
-        git config --global user.email "rios_6389_@hotmail.com"
+        git config                                                  - you will seee all the options that git has
+        git config --list                                           - you will se the default configuration
+        git config --list --show-origin                             - for advance configuration
+        git config --global user.name "Jesus Rios"                  - define your name
+        git config --global user.email "rios_6389_@hotmail.com"     - define your email
     5.- Be aware of this concept in Git.
-        You have 3 different concepts in Git local Git.
+        You have 3 different concepts in local Git.
 
         Directory               Staging             Repository
 
@@ -22,12 +22,17 @@ COMMANDS IN LOCAL MACHINE WE USE GIT
     git init                    - create a new repository.
     git status                  - the current status of the project.
     git add fileName            - add the file to STAGING section. 
+    git add .                   - add all the files to the STAGING section.
     git rm fileName             - remove the file from STAGING section.
     git rm --cached fileName    - remove the command "git add" from STAGING
-    git commit -m "Message"     - add the file to the repository (master), and it also add a message with the parametter -m
-    git show                    - show the historical changes that were made, who made the canges
-    git log (file)              - show the changes of a file.  
-
+    git commit -m "Message"     - do the commit to the repository (master), and it also add a message with the parametter -m, the command "git add" had to be excecuted before.
+    git commit -am "Message"    - in the same line execute the command "git add" and do the commit using a Message with the parametter -m.
+    git log fileName            - show the history of file (commit, author, date, message) in the repository.
+    git log                     - show all the history of the files (commit, author, date, message) in the repository.
+    git reset commitId --hard   - return to the version you're specifying in "commitId", there is no way to keep what is in STAGING.
+    git reset commitId --soft   - return to the version you're specifying in "commitId", keep what in STAGING section is.
+    git show fileName           - show the historical changes that were made in the file.
+    
 
 COMMANDS WORKING TO COLABORATE IN WEB WE USE GIT_HUB
     
