@@ -34,6 +34,10 @@ COMMANDS IN LOCAL MACHINE WE USE GIT
     git reset commitId --soft   - return to the version you're specifying in "commitId", keep what in STAGING section is.
     git show fileName           - show the historical changes that were made in the file.
     git diff                    - show the differences that are in STAGING file and directory file.
+    git checkout commitId fileName - return to another commit, if you want to keep the selected commit you have to make a new commit, be careful.
+    
+
+
 
 COMMANDS WORKING TO COLABORATE IN WEB WE USE GIT_HUB
     

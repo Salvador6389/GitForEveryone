@@ -1,0 +1,30 @@
+CREATE SSH KEYS AND ADD PUBLIC KEY TO THE REMOTE REPOSITORY.
+
+    1.- Go to home from command line.
+    2.- type next in your command line (change your email):
+        ssh-keygen -t rsa -b 4096 -C "rios_6389_@hotmail.com"
+    3.- Enter file in which to save the key (/c/Users/Usuario/.ssh/id_rsa):
+        Enter
+    4.- Enter passphrase (empty for no passphrase):
+        Enter (if you want a password over your key enter it before)
+    5.- Verify your randonmart image.
+    
+
+    6.- Review that the key server is running, just type this:
+        eval $(ssh-agent -s)
+    7.- Add the key to the system, type:
+        ssh-add ~/.ssh/id_rsa
+        Enter
+    8.- Open your public key with a text editor and copy the content's file
+    9.- Go to GitHub account, go to Settings, go to SSH and GPG keys.
+    10.- Select New SSH key and type a Title and paste the key.
+    11.- Type your Password again.
+    12.- Go to your repository ant tells it to use SSH and copy the URL.
+
+
+TELL YOUR SYSTEM THAT USE SSH FOR CONNECTING.
+    1.- Type the below command in Git Bash.
+        git remote -v 
+    2.- type
+        git remote set-url origin git@github.com:Salvador6389/hyperblog.git
+        
