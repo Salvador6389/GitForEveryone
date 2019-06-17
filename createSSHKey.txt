@@ -34,4 +34,4 @@ TELL YOUR SYSTEM THAT USE SSH FOR CONNECTING.
         git pull
         git pull origin master (get the files)
         git push origin master (send the files)
-    
+    6.- Done
