@@ -1,11 +1,7 @@
 CREATE SSH KEYS AND ADD PUBLIC KEY TO THE REMOTE REPOSITORY.
 
     1.- Go to home from command line.
-<<<<<<< HEAD
     2.- Type next in your command line (change your email):
-=======
-    2.- type next in your command line (change your email):
->>>>>>> 508a1ce1772a1cf9a7bbda899817be0639f1c4f7
         ssh-keygen -t rsa -b 4096 -C "rios_6389_@hotmail.com"
     3.- Enter file in which to save the key (/c/Users/Usuario/.ssh/id_rsa):
         Enter
@@ -36,6 +32,8 @@ TELL YOUR SYSTEM THAT USE SSH FOR CONNECTING.
         git remote add origin git@github.com:Salvador6389/GitForEveryone.git (example)
     5.- type 
         git pull
-        git pull origin master (get the files) * (git pull origin master --allow-unrelated-histories) 
+        git pull origin master (get the files), 
+            if the command does not work, type: 
+        git pull origin master --allow-unrelated-histories
         git push origin master (send the files)
     6.- Done
