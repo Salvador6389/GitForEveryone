@@ -23,8 +23,15 @@ CREATE SSH KEYS AND ADD PUBLIC KEY TO THE REMOTE REPOSITORY.
 
 
 TELL YOUR SYSTEM THAT USE SSH FOR CONNECTING.
-    1.- Type the below command in Git Bash.
+    1.- Go to your Git Repository and create a New one.
+    2.- From your command line clone it
+        git clone git@github.com:Salvador6389/GitForEveryone.git (example)
+    3.- Type the below command in Git Bash.
         git remote -v 
-    2.- type
-        git remote set-url origin git@github.com:Salvador6389/hyperblog.git
+    4.- type
+        git remote add origin git@github.com:Salvador6389/GitForEveryone.git
+    5.- type 
+        git pull
+        git pull origin master
         
+    
