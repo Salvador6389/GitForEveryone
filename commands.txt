@@ -40,4 +40,28 @@ COMMANDS IN LOCAL MACHINE WE USE GIT
 
 
 COMMANDS WORKING TO COLABORATE IN WEB WE USE GIT_HUB
+    git branch branchName               - create a new branchName
+    git checkout branchName             - move to another branchName
+    git merge branchName                - merge the changes, it is made from the current branch getting the changes from the other
+    git remote add origin remoteName    - add a remote origin of aour files.
+    git remote                          - show only the name
+    git remote -v                       - show the origin to work on fetch or push
+    git push origin master              - send to origin the master branch
+    git pull origin master              - get from origin to master branch
+    git pull origin master --allow-unrelated-histories  - merge what is in the remote repository with my current branch
+    git config -l                       - show the configuration
+    git log --all --graph --decorate --oneline                      - show the tree in a compact form (history)
+    alias aliasName="git log --all --graph --decorate --oneline"    - add an alias to the comand in quotation marks
+    git tag                                                         - show all the our tags         
+    git show-ref --tags                                             - show the relationship between the tag name and the hash
+    git tag -a tagName (v0.1) -m "Message" hashNumber               - add a tag in the specified hash   
+    git push origin --tags                                          - we push the tags to origin
+    git tag -d tagName                                              - to delete a tagName
+    git push origin :refs/tags/tagName                              - delete the tag name in our remote repository
+    git branch                                                      - show all the branches
+    git show-branch                                                 - show the existing branches and their history
+    git show-branch --all                                           - show the history as above but in detail
+    gitk                                                            - open in a software the visual history
+
+    git clone URLRepository             - 
     
