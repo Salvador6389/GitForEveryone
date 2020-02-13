@@ -9,6 +9,7 @@ BEFORE TO START
         git config --list --show-origin                             - for advance configuration
         git config --global user.name "Jesus Rios"                  - define your name
         git config --global user.email "rios_6389_@hotmail.com"     - define your email
+        git config --global https.sslVerify false                   - disable Git ssl verification in the hosting fisheye/crucible
     5.- Be aware of this concept in Git.
         You have 3 different concepts in local Git.
 
